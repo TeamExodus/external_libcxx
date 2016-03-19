@@ -50,8 +50,7 @@ LIBCXX_C_INCLUDES := \
 
 LIBCXX_CPPFLAGS := \
 	-std=c++11 \
-	-nostdinc++ \
-	-fexceptions \
+	-nostdinc++
 
 LIBCXX_EXTRA_CFLAGS := \
         -O3 \

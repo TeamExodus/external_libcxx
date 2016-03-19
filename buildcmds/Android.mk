@@ -26,7 +26,6 @@ LOCAL_CXX_STL := libc++
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../test/support
 LOCAL_CPPFLAGS := \
     -std=c++11 \
-    -fexceptions \
     -UNDEBUG \
     -w \
     -Wno-error=non-virtual-dtor \
