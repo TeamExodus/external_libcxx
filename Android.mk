@@ -50,8 +50,7 @@ LIBCXX_C_INCLUDES := \
 
 LIBCXX_CPPFLAGS := \
 	-std=c++11 \
-	-nostdinc++ \
-	-fexceptions \
+	-nostdinc++
 
 # target static lib
 include $(CLEAR_VARS)
